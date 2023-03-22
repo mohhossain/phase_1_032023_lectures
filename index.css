@@ -9,3 +9,27 @@ html{
 body{
     text-align: center;
 }
+
+.cat-list{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.cat-card{
+    border: #212121 1px solid;
+    border-radius: 5px;
+}
+
+.cat-card img{
+    height:auto;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.cat-card p{
+    font-size: large;
+}
